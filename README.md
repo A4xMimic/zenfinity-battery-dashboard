@@ -1,16 +1,61 @@
-# React + Vite
+# ⚡ Zenfinity Energy - Battery Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive telemetry dashboard for analyzing Li-ion battery cycle data. This project was built as part of the Zenfinity Energy Frontend Intern Assessment.
 
-Currently, two official plugins are available:
+**[🚀 Live Demo](https://zenfinity-battery-dashboard.vercel.app/)** | **[📂 GitHub Repository](https://github.com/A4xMimic/zenfinity-battery-dashboard)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Dashboard Screenshot](public/screenshot.png)
+## 📋 Project Overview
 
-## React Compiler
+This dashboard visualizes complex battery telemetry data, allowing engineers to monitor the health, performance, and thermal characteristics of battery packs over their entire lifecycle.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Status:** ✅ 100% of Requirements Met + Advanced Bonus Analysis
 
-## Expanding the ESLint configuration
+### Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### 1. Data Visualization
+* **Interactive Cycle Navigation:** Custom index-based slider allows seamless navigation through the entire history of a battery, handling data gaps gracefully.
+* **Industrial HUD Design:** High-contrast "Dark Mode" aesthetic using Zinc/Emerald/Amber tones for clarity in professional environments.
+* **Key Performance Indicators (KPIs):** Instant view of Avg SOH, Temperature, and Charging Events.
+
+#### 2. Advanced Analytics (Bonus Implemented)
+* **Lifecycle Degradation Analysis:** A long-term trend line chart that overlays **State of Health (SOH)** and **State of Charge (SOC)** across all recorded cycles to visualize degradation patterns.
+* **Thermal Distribution:** Interactive Bar Chart with a toggleable sampling rate (**5°C, 10°C, 15°C, 20°C**) to analyze thermal management efficiency.
+
+#### 3. Detailed Metrics
+* **Cycle Statistics:** Precise Start/End times, Duration, and SOH drop per cycle.
+* **Performance Data:** Tracks Total Distance, Max Speed, and Voltage Min/Max/Avg.
+* **Safety & Alerts:** Dedicated panel for monitoring system warnings and protection events.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** React 18 (Vite)
+* **Styling:** Tailwind CSS (Custom "Industrial" Theme)
+* **Charts:** Recharts
+* **Icons:** Lucide React
+* **Deployment:** Vercel
+
+---
+
+## 🏃‍♂️ How to Run Locally
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/A4xMimic/zenfinity-battery-dashboard.git](https://github.com/A4xMimic/zenfinity-battery-dashboard.git)
+    cd zenfinity-battery-dashboard
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the Development Server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in Browser**
+    Navigate to `http://localhost:5173` to view the dashboard.
