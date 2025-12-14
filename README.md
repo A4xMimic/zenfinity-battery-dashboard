@@ -4,7 +4,7 @@ A comprehensive telemetry dashboard for analyzing Li-ion battery cycle data. Thi
 
 **[🚀 Live Demo](https://zenfinity-battery-dashboard.vercel.app/)** | **[📂 GitHub Repository](https://github.com/A4xMimic/zenfinity-battery-dashboard)**
 
-![Dashboard Screenshot](public/screenshot.png)
+![Dashboard Screenshot](public/Screenshot.png)
 ## 📋 Project Overview
 
 This dashboard visualizes complex battery telemetry data, allowing engineers to monitor the health, performance, and thermal characteristics of battery packs over their entire lifecycle.
