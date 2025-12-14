@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "summary": [
+    {
+      "imei": "865044073967657",
+      "total_cycles": 113,
+      "first_cycle": 0,
+      "last_cycle": 118,
+      "avg_soc_across_cycles": 74.21845604100436,
+      "avg_soh_across_cycles": 99.646017699115,
+      "avg_temp_across_cycles": 30.254332884981594,
+      "total_distance_all_cycles": 0.0,
+      "total_charging_instances": 271,
+      "first_cycle_time": "2025-09-04T18:24:04+00:00",
+      "last_cycle_time": "2025-12-10T12:45:29+00:00"
+    },
+    {
+      "imei": "865044073949366",
+      "total_cycles": 76,
+      "first_cycle": 0,
+      "last_cycle": 76,
+      "avg_soc_across_cycles": 60.40730917145068,
+      "avg_soh_across_cycles": 98.68421052631577,
+      "avg_temp_across_cycles": 33.18320005591654,
+      "total_distance_all_cycles": 3163.006863885012,
+      "total_charging_instances": 137,
+      "first_cycle_time": "2025-09-04T18:22:55+00:00",
+      "last_cycle_time": "2025-11-29T00:36:39+00:00"
+    }
+  ],
+  "total_batteries": 2
+}

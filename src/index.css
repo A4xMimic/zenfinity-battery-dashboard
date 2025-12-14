@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fix for full screen background */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #020617; /* matches slate-950 */
+  color: white;
+}
+
+/* Fix for "Jitter" - Always show scrollbar track to prevent layout jump */
+html {
+  overflow-y: scroll; 
+}
